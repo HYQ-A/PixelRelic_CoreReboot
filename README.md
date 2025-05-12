@@ -16,7 +16,7 @@
 ### 2. **战斗与AI系统**
 - **武器连击机制**：`WeaponController`支持多方向攻击判定，使用`Physics2D.OverlapBox`精准检测伤害区域。
 - **怪物行为树**：`MonsterObj`实现巡逻、追击、攻击逻辑，包含转向平滑插值和协程控制的等待/返回逻辑。
-- **玩家战斗反馈**：受击硬直、血量管理（`PlayerObj`）与技能冷却UI（`GamePanel`）。
+- **玩家战斗反馈**：受击硬直、血量管理（`PlayerObj`）与技能冷却UI(待完善)（`GamePanel`）。
 
 ### 3. **交互与叙事系统**
 - **动态对话系统**：`NpcOneObj`解析CSV对话数据，支持多角色对话位置切换，触发式交互（OnTriggerEnter2D）。
